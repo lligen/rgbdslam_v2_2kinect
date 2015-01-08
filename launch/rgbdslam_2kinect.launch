@@ -8,6 +8,8 @@
     <!-- lligen added settings-->
     <param name="config/few_feature_slam"              value="true"/>
     <param name="config/calibrate_kinect"              value="false"/>
+    <param name="config/maximum_depth"              value="4"/>
+
 
     <!-- Input data settings-->
     <param name="config/topic_image_mono2"              value="/camera2/rgb/image_raw"/> 

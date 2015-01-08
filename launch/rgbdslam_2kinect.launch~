@@ -6,8 +6,8 @@
   <node pkg="rgbdslam_2kinect" type="rgbdslam_2kinect" name="rgbdslam_2kinect" cwd="node" required="true" output="screen"> 
 
     <!-- lligen added settings-->
-    <param name="config/few_feature_slam"              value="false"/>
-    <param name="config/calibrate_kinect"              value="true"/>
+    <param name="config/few_feature_slam"              value="true"/>
+    <param name="config/calibrate_kinect"              value="false"/>
 
     <!-- Input data settings-->
     <param name="config/topic_image_mono2"              value="/camera2/rgb/image_raw"/> 
